@@ -331,6 +331,23 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
     margin-top: 3rem;
+    padding: 0 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .characteristics-grid {
+        grid-template-columns: 1fr;
+        padding: 0 0.5rem;
+    }
+    
+    .characteristic-item {
+        padding: 1.25rem;
+    }
+    
+    .characteristic-icon {
+        margin-bottom: 0.5rem;
+    }
 }
 
 .characteristic-item {
@@ -339,8 +356,10 @@ p {
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
     display: flex;
-    align-items: flex-start;
-    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
     transition: var(--transition);
 }
 
@@ -356,7 +375,8 @@ p {
 
 .characteristic-item h4 {
     color: var(--primary-color);
-    margin-bottom: 0.5rem;
+    margin: 0.5rem 0 0 0;
+    font-size: 1.1rem;
 }
 
 .characteristic-item p {
