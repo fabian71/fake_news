@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combate às Fake News - Informação Confiável</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>🛡️ Combate às Fake News</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#conceitos" class="nav-link">O que são</a></li>
+                    <li><a href="#identificar" class="nav-link">Como Identificar</a></li>
+                    <li><a href="#combate" class="nav-link">Estratégias</a></li>
+                    <li><a href="#comprova" class="nav-link">Projeto Comprova</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Combate às <span class="highlight">Fake News</span></h1>
+                <p class="hero-subtitle">A desinformação é uma ameaça à democracia. Aprenda a identificar, verificar e combater as fake news para proteger nossa sociedade.</p>
+                <div class="hero-buttons">
+                    <a href="#comprova" class="btn btn-primary">
+                        <i class="fab fa-whatsapp"></i>
+                        Verificar no Comprova
+                    </a>
+                    <a href="#conceitos" class="btn btn-secondary">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/fake-news-hero.jpg" alt="Combate às Fake News" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Conceitos Section -->
+    <section id="conceitos" class="section">
+        <div class="container">
+            <h2 class="section-title">O que são Desinformação e Fake News?</h2>
+            <div class="concepts-grid">
+                <div class="concept-card">
+                    <div class="concept-icon">🔍</div>
+                    <h3>Desinformação</h3>
+                    <p>Termo abrangente que define qualquer conteúdo que contribua para o aumento de informações falsificadas, não validadas ou pouco claras, com o objetivo de afastar os cidadãos do conhecimento factual da realidade.</p>
+                </div>
+                <div class="concept-card">
+                    <div class="concept-icon">📰</div>
+                    <h3>Fake News</h3>
+                    <p>Formato específico da desinformação, indicando a vontade deliberada de distribuir informação falsa ou rumores, projetadas para imitar notícias legítimas e induzir incerteza.</p>
+                </div>
+                <div class="concept-card">
+                    <div class="concept-icon">🎭</div>
+                    <h3>Pós-Verdade</h3>
+                    <p>Período em que os fatos perdem relevância e são substituídos por "verdades ideológicas", priorizando a emoção e a identidade sobre a evidência.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Características da Desinformação</h2>
+            <div class="characteristics-grid">
+                <div class="characteristic-item">
+                    <div class="characteristic-icon">⚠️</div>
+                    <h4>Sensacionalismo</h4>
+                    <p>Títulos chamativos que apelam para o lado emocional, causando indignação, medo ou choque</p>
+                </div>
+                <div class="characteristic-item">
+                    <div class="characteristic-icon">❌</div>
+                    <h4>Erros Gramaticais</h4>
+                    <p>Presença de erros de ortografia e gramática, diferente de textos jornalísticos legítimos</p>
+                </div>
+                <div class="characteristic-item">
+                    <div class="characteristic-icon">🔗</div>
+                    <h4>Fontes Suspeitas</h4>
+                    <p>Citação de "famosos" sem nomes ou sites parecidos com veículos conhecidos</p>
+                </div>
+                <div class="characteristic-item">
+                    <div class="characteristic-icon">🔄</div>
+                    <h4>Descontextualização</h4>
+                    <p>Uso de notícias antigas ou trechos verdadeiros fora de contexto</p>
+                </div>
+                <div class="characteristic-item">
+                    <div class="characteristic-icon">😡</div>
+                    <h4>Apelo Emocional</h4>
+                    <p>Conteúdos que estimulam raiva e ódio geram mais interação e são mais rentáveis</p>
+                </div>
+                <div class="characteristic-item">
+                    <div class="characteristic-icon">🎯</div>
+                    <h4>Intencionalidade</h4>
+                    <p>Vontade deliberada de manipular e confundir pessoas, fabricando detalhes falsos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Identificar Section -->
+    <section id="identificar" class="section">
+        <div class="container">
+            <h2 class="section-title">Como Identificar Fake News</h2>
+            <div class="identification-content">
+                <div class="identification-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Análise Inicial</h4>
+                            <p>Leia o texto com atenção antes de compartilhar. Observe o formato, presença de palavras em maiúsculas, exclamações e erros de ortografia.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Checagem de Fonte</h4>
+                            <p>Verifique a data da postagem e analise a fonte. Desconfie de sites suspeitos ou desconhecidos sem identificação de autores.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Confirmação Cruzada</h4>
+                            <p>Observe se a notícia é repetida em outros portais confiáveis. Use ferramentas de checagem de fatos.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Pensamento Crítico</h4>
+                            <p>Desenvolva a capacidade de analisar informações criticamente, questionar fontes e identificar vieses.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="identification-image">
+                    <img src="assets/images/fact-checking.gif" alt="Verificação de Fatos">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Propagação Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Mecanismos de Propagação</h2>
+            <div class="propagation-content">
+                <div class="propagation-text">
+                    <h3>A Teia Digital da Desinformação</h3>
+                    <p>A propagação da desinformação é impulsionada principalmente pelas redes sociais e aplicativos de mensagens como Facebook, Twitter, YouTube e WhatsApp.</p>
+                    
+                    <div class="propagation-mechanisms">
+                        <div class="mechanism">
+                            <h4>🔄 Câmaras de Eco</h4>
+                            <p>Usuários compartilham informações criando narrativas falsas e gerando desconfiança.</p>
+                        </div>
+                        <div class="mechanism">
+                            <h4>🎯 Algoritmos</h4>
+                            <p>Identificam emoções políticas e criam "bolhas" informacionais, resultando em múltiplas realidades.</p>
+                        </div>
+                        <div class="mechanism">
+                            <h4>🤖 Bots e Contas Falsas</h4>
+                            <p>Dificultam a distinção entre notícias verdadeiras e falsas através de automação.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="propagation-image">
+                    <img src="assets/images/social-bubbles.jpg" alt="Bolhas Sociais">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impactos Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Impactos na Sociedade</h2>
+            <div class="impacts-grid">
+                <div class="impact-card">
+                    <div class="impact-icon">🏥</div>
+                    <h4>Saúde Pública</h4>
+                    <p>Descrença em vacinas, divulgação de remédios ineficazes e desqualificação de medidas de segurança comprovadas.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">🗳️</div>
+                    <h4>Democracia</h4>
+                    <p>Corrosão da confiança em instituições como Justiça Eleitoral e STF, comprometendo a integridade democrática.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">📰</div>
+                    <h4>Jornalismo</h4>
+                    <p>Enfraquecimento da confiança no jornalismo independente e rejeição de evidências científicas.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">⚔️</div>
+                    <h4>Conflitos Sociais</h4>
+                    <p>Polarização política, sufocamento do debate e inspiração para atos de violência como os de 8 de janeiro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estratégias de Combate Section -->
+    <section id="combate" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Estratégias de Combate</h2>
+            <div class="strategies-content">
+                <div class="strategy-category">
+                    <h3>👤 Verificação Individual</h3>
+                    <ul>
+                        <li>Sempre verificar informações antes de compartilhar</li>
+                        <li>Usar ferramentas de checagem de fatos</li>
+                        <li>Desenvolver pensamento crítico</li>
+                        <li>Confirmar informações em múltiplas fontes</li>
+                    </ul>
+                </div>
+                <div class="strategy-category">
+                    <h3>🏢 Agências de Checagem</h3>
+                    <ul>
+                        <li>Verificação profissional de fatos</li>
+                        <li>Parcerias com plataformas digitais</li>
+                        <li>Desmentir boatos e notícias falsas</li>
+                        <li>Educação pública sobre desinformação</li>
+                    </ul>
+                </div>
+                <div class="strategy-category">
+                    <h3>💻 Responsabilização das Plataformas</h3>
+                    <ul>
+                        <li>Transparência algorítmica</li>
+                        <li>Moderação rigorosa de conteúdo</li>
+                        <li>Combate a bots e contas falsas</li>
+                        <li>Políticas contra desinformação</li>
+                    </ul>
+                </div>
+                <div class="strategy-category">
+                    <h3>⚖️ Ações Governamentais</h3>
+                    <ul>
+                        <li>Legislação específica</li>
+                        <li>Investigação e punição</li>
+                        <li>Campanhas de educação pública</li>
+                        <li>Proteção da liberdade de expressão</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projeto Comprova Section -->
+    <section id="comprova" class="section comprova-section">
+        <div class="container">
+            <div class="comprova-card">
+                <div class="comprova-header">
+                    <img src="assets/images/whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon">
+                    <h2>Projeto Comprova</h2>
+                    <p class="comprova-subtitle">Seu aliado contra a desinformação</p>
+                </div>
+                
+                <div class="comprova-content">
+                    <div class="comprova-info">
+                        <h3>Verificação Rápida e Confiável</h3>
+                        <p>O Projeto Comprova é uma iniciativa colaborativa de verificação de fatos que reúne jornalistas de diversos veículos para combater a desinformação.</p>
+                        
+                        <div class="comprova-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Verificação profissional de conteúdos suspeitos</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-clock"></i>
+                                <span>Resposta rápida via WhatsApp</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Fonte confiável e imparcial</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="comprova-contact">
+                        <div class="phone-display">
+                            <div class="phone-number">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>(11) 97045-4984</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-buttons">
+                            <a href="https://wa.me/5511970454984" class="btn btn-whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                Enviar Mensagem
+                            </a>
+                            <button class="btn btn-qr" onclick="toggleQR()">
+                                <i class="fas fa-qrcode"></i>
+                                Ver QR Code
+                            </button>
+                        </div>
+                        
+                        <div id="qr-code" class="qr-code hidden">
+                            <div class="qr-placeholder">
+                                <i class="fas fa-qrcode"></i>
+                                <p>QR Code para WhatsApp</p>
+                                <small>Escaneie para abrir no WhatsApp</small>
+                            </div>
+                        </div>
+                        
+                        <div class="comprova-instructions">
+                            <h4>Como usar:</h4>
+                            <ol>
+                                <li>Envie o conteúdo suspeito para o WhatsApp</li>
+                                <li>Aguarde a verificação da equipe</li>
+                                <li>Receba a resposta com a checagem</li>
+                                <li>Compartilhe informação verificada</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🛡️ Combate às Fake News</h3>
+                    <p>Informação confiável para uma sociedade mais consciente e democrática.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#conceitos">Conceitos</a></li>
+                        <li><a href="#identificar">Como Identificar</a></li>
+                        <li><a href="#combate">Estratégias</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Agências de Checagem</h4>
+                    <ul>
+                        <li><a href="https://lupa.uol.com.br" target="_blank">Agência Lupa</a></li>
+                        <li><a href="https://aosfatos.org" target="_blank">Aos Fatos</a></li>
+                        <li><a href="https://g1.globo.com/fato-ou-fake" target="_blank">Fato ou Fake</a></li>
+                        <li><a href="https://projetocomprova.com.br" target="_blank">Projeto Comprova</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <div class="contact-info">
+                        <p><i class="fab fa-whatsapp"></i> (11) 97045-4984</p>
+                        <p><i class="fas fa-envelope"></i> contato@combateaofakenews.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Combate às Fake News. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/5511970454984" target="_blank" class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+            <span class="tooltip">Verificar no Comprova</span>
+        </a>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
